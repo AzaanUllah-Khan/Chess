@@ -1,0 +1,41 @@
+.white, .black{
+    width: 158px;
+    height: 110px;
+}
+table{
+    margin: -8px -8px;
+    border: 10px solid rgb(112, 96, 96);
+    border-collapse: collapse;
+    transition: all 1s ease 0s;
+}
+table:hover{
+    border: 10px solid rgb(44, 178, 211);
+}
+.white{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.black{
+    background-color: black;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+body{
+    overflow: hidden;
+}
+.active{
+    transition: all 1s ease 0s;
+}
+.active:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.active:active{
+    text-shadow: 7px 7px 10px green;
+}
